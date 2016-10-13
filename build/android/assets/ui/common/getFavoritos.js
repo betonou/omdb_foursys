@@ -1,0 +1,1 @@
+/Users/robertonou/Documents/Appcelerator_Studio_Workspace/OMDbFavoritos/Resources/ui/common/getFavoritos.js

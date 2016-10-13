@@ -1,0 +1,8 @@
+"/Users/robertonou/Documents/Appcelerator_Studio_Workspace/OMDbFavoritos/build/android/gen/android/support/v7/appcompat/R.java"
+"/Users/robertonou/Documents/Appcelerator_Studio_Workspace/OMDbFavoritos/build/android/gen/android/support/v7/cardview/R.java"
+"/Users/robertonou/Documents/Appcelerator_Studio_Workspace/OMDbFavoritos/build/android/gen/com/betonou/omdb/AssetCryptImpl.java"
+"/Users/robertonou/Documents/Appcelerator_Studio_Workspace/OMDbFavoritos/build/android/gen/com/betonou/omdb/OmdbfavoritosActivity.java"
+"/Users/robertonou/Documents/Appcelerator_Studio_Workspace/OMDbFavoritos/build/android/gen/com/betonou/omdb/OmdbfavoritosAppInfo.java"
+"/Users/robertonou/Documents/Appcelerator_Studio_Workspace/OMDbFavoritos/build/android/gen/com/betonou/omdb/OmdbfavoritosApplication.java"
+"/Users/robertonou/Documents/Appcelerator_Studio_Workspace/OMDbFavoritos/build/android/gen/com/betonou/omdb/R.java"
+"/Users/robertonou/Documents/Appcelerator_Studio_Workspace/OMDbFavoritos/build/android/gen/ti/modules/titanium/ui/R.java"
