@@ -1,4 +1,8 @@
 function retornaTemplate(){
+	
+	//template de favoritos não exibe imagens de capa 
+	//evitando que imagens também sejam salvas dentro do telefone
+	// assim o acumulo de dados desnecessário é evitado
 	var myTemplate = {
 			properties : {
 				selectedBackgroundColor : 'white',

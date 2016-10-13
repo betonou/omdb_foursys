@@ -9,7 +9,7 @@ function ApplicationWindow(os) {
 	});
 
 	//construct UI
-	var firstView = new FirstView(os);
+	var firstView = new FirstView();
 	self.add(firstView);
 
 	return self;

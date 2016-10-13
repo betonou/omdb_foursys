@@ -1,7 +1,10 @@
 //FirstView Component Constructor
-function FirstView(os) {
+function FirstView() {
+
+	//informacoes de contato
 		var nome = 'Roberto Nou   (79)99921-4848';
 		var mail = 'betonou@gmail.com';
+	//requerimento das windows de busca e favoritos
 	var Listagem = require('ui/common/ListViewFavoritos');
 	var Busca = require('ui/common/ListViewBusca');
 	
@@ -56,7 +59,9 @@ function FirstView(os) {
 		top : "10dp",
 		left : "10dp"
 	});
-
+	
+	//usando templates para composicao do menu principal
+	//requisitado em escopo de projeto
 	var myTemplate = {
 
 		childTemplates : [{
@@ -82,9 +87,9 @@ function FirstView(os) {
 			}
 		}]
 	};
-
+	
+	//criando menu com objeto
 	var listView = Ti.UI.createListView({
-
 		templates : {
 			'template' : myTemplate
 		},
@@ -98,9 +103,9 @@ function FirstView(os) {
 	});
 
 	var sections = [];
-
 	var menu = Ti.UI.createListSection();
 
+	// criando itens do menu
 	var menuItems = [{
 		info : {text : 'Buscar Filme'},
 		pic : {image : '/images/icon_menu_busca.png'},
@@ -110,10 +115,11 @@ function FirstView(os) {
 		pic : {image : '/images/icon_menu_fav.png'},
 		interna : 2
 	}];
+	//carregando itens no menu
 	menu.setItems(menuItems);
 	sections.push(menu);
 	listView.setSections(sections);
-
+	//adicionando objetos na window
 	headList.add(listView);
 	headList.add(titleSection);
 	headList.add(logo);

@@ -1,4 +1,5 @@
 function getAnuncios(lista) {
+	//acessando pasta e arquivo no telefone que contem gravados os filmes favoritos
 	var txDir2 = Ti.Filesystem.getFile(Ti.Filesystem.applicationDataDirectory,'depura1');
 	var file = Ti.Filesystem.getFile(txDir2.resolve(), 'filmes_favoritos.json');
 	var favoritos = file.read();
@@ -15,7 +16,7 @@ function getAnuncios(lista) {
 			if (json.length > 0) {
 				for (var i = 0,j = json.length; i < j; i++) {
 					var testeobj = [json[i]];
-
+					//alimentando a Listview com os objetos salvos
 					resultado.push(testeobj);
 					lista.sections[0].appendItems(testeobj);
 
